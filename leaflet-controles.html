@@ -56,7 +56,7 @@
                     "Terrain": terreno
                 };
     
-                controlCapas = L.control.layers(baseMaps, overlayMaps);
+                controlCapas = L.control.layers(baseMaps, overlayMaps,{collapsed:false}); 
                 controlCapas.addTo(map);
     
                 controlEscala = L.control.scale();
